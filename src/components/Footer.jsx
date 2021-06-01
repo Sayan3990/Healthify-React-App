@@ -1,7 +1,7 @@
 import React  from 'react';
 
 function Footer() {
-    return (<div>
+    return (<div id="ourfooter">
         <br/>
         <footer>
             <div class="container-foot">
