@@ -45,12 +45,11 @@ function Footer() {
 
   <section class="ft-social">
     <ul class="ft-social-list">
-      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fab fa-github"></i></a></li>
-      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-github"></i></a></li>
+      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
     </ul>
   </section>
   <section class="ft-legal">
@@ -62,8 +61,6 @@ function Footer() {
   </section>
   </div>
 </footer>
-
-
 );
 }
 

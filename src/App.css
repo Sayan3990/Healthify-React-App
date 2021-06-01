@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -30,8 +31,9 @@ body {
 
 .header{
   /* box-shadow: 3px 3px 5px 6px rgb(158, 155, 155); */
-  box-shadow: 0px 10px 5px 0px rgb(158, 155, 155);
+  box-shadow: 10px 10px 5px 0px rgb(158, 155, 155);
 }
+
 
 /* @keyframes popping {
   0% {
@@ -284,8 +286,9 @@ footer a {
   text-decoration: none;
   color: #eee;
 }
-a:hover {
+footer a:hover {
   text-decoration: underline;
+  color:white;
 }
 .ft-title {
   color: #fff;
@@ -313,9 +316,11 @@ a:hover {
     justify-content: space-evenly;
   }
 }
+
 .ft-main-item {
   padding: 1.25rem;
   min-width: 12.5rem;
+  text-align:left;
 }
 
 /* Footer main  */
@@ -347,7 +352,7 @@ input[type="submit"] {
   padding-top: 1.25rem;
 }
 .ft-social-list li {
-  margin: 0.5rem;
+  margin: 0.2rem;
   font-size: 1.25rem;
 }
 /* Footer legal */
@@ -369,3 +374,28 @@ input[type="submit"] {
     display: flex;
     justify-content: space-between;
 }
+
+/*social media buttons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
